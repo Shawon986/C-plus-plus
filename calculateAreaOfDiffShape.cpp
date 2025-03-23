@@ -30,8 +30,18 @@ int main(){
     double trapeziumArea;
     trapeziumArea = (double)1/2 * (a+b) * h;
     cout<<"Area of a Trapezium is : "<<trapeziumArea<<endl;
-    
 
+
+    //area of a circle
+
+    double pi = 3.1416 ,r,areaOfCircle;
+
+    cout<<"Enter value of r/radius : ";
+    cin>>r;
+
+    areaOfCircle = pi * (r*r);
+    cout<<"Area of a circle is : "<<areaOfCircle<<endl;
+    
 
     return 0;
 }
