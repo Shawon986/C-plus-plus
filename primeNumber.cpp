@@ -6,6 +6,10 @@ int main() {
     cout<<"Type your number : ";
     cin>>number;
 
+    if(number<=1){
+        count++ ;
+    }
+
     for(int i = 2; i<number; i++){
         if(number%i == 0){
            count ++;
