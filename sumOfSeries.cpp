@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -36,6 +37,17 @@ int main() {
     }
     cout<<"Sum = "<<sumOfP<<endl;
 
+    //sum of square numbers
+
+    int q,sumOfQ;
+
+    cout<<"Type last number : ";
+    cin>>q;
+
+    for(int i = 1; i<=q; i++){
+        sumOfQ = sumOfQ + pow(i,2);
+    }
+    cout<<"Sum = "<<sumOfQ;
     
     return 0;
 }
