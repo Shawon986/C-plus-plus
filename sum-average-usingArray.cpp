@@ -22,11 +22,23 @@ int main() {
     cout<<"\nTotal marks = "<<sum<<endl;
 
     float average = float(sum)/n ;
-    cout<<"Average marks is = "<<average;
+    cout<<"Average marks is = "<<average<<endl;
+
+    int max = marks[0];
+    int min = marks[0];
+
+    for(int i =1; i<n; i++){
+        if(max < marks[i]){
+            max = marks[i];
+        }
+        if(min > marks[i]){
+            min = marks[i];
+        }
+    }
+
+    cout<<"Maximum number : "<<max<<endl;
+    cout<<"Minimum number : "<<min<<endl;
 
 
-
-
-    
     return 0;
 }
