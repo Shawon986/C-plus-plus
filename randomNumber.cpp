@@ -1,4 +1,5 @@
 #include <iostream>
+#include<stdlib.h>
 using namespace std;
 
 int main() {
@@ -9,7 +10,10 @@ int main() {
     }
 
 
-   
+    for(int j =1; j<=5; j++){
+        int randomNumbers = rand() % 5 + 1; //print random number between 1 to 5.
+        cout<<"Random numbers = "<<randomNumbers<<endl;
+    }
     
     return 0;
 }
