@@ -19,3 +19,5 @@ int main() {
     
     return 0;
 }
+
+//Many Function can be named same but their parameters number and type must be different
